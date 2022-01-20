@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\enean\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\enean\\.nuget\\packages"
+    ]
+  }
+}
