@@ -1,0 +1,14 @@
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\AdapostAPI.DAL.deps.json
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\AdapostAPI.DAL.runtimeconfig.json
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\AdapostAPI.DAL.runtimeconfig.dev.json
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\AdapostAPI.DAL.dll
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\ref\AdapostAPI.DAL.dll
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\bin\Debug\net5.0\AdapostAPI.DAL.pdb
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.AssemblyInfoInputs.cache
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.AssemblyInfo.cs
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.csproj.CoreCompileInputs.cache
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.dll
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\ref\AdapostAPI.DAL.dll
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.pdb
+C:\Users\enean\OneDrive\Desktop\.NET Projects\AdapostAPI.DAL\obj\Debug\net5.0\AdapostAPI.DAL.genruntimeconfig.cache
