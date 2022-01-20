@@ -1,3 +1,3 @@
 # WebAPI-Shelter
 
-A simple application using .net and Angular.
+A simple application using .NET and Angular.
