@@ -1,0 +1,76 @@
+<div class="container">
+    <h1 class="title">
+        Animals
+    </h1>
+
+    <table mat-table [dataSource]="animals" class="mat-elevation-z8" demo-table table>
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef>Id</th>
+          <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="specie">
+          <th mat-header-cell *matHeaderCellDef> Specie </th>
+          <td mat-cell *matCellDef="let element"> {{element.specie}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="greutate">
+          <th mat-header-cell *matHeaderCellDef> Greutate </th>
+          <td mat-cell *matCellDef="let element"> {{element.greutate}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="inaltime">
+          <th mat-header-cell *matHeaderCellDef> Inaltime </th>
+          <td mat-cell *matCellDef="let element"> {{element.inaltime}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="sex">
+            <th mat-header-cell *matHeaderCellDef> Sex </th>
+            <td mat-cell *matCellDef="let element"> {{element.sex}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="varsta">
+            <th mat-header-cell *matHeaderCellDef> Varsta </th>
+            <td mat-cell *matCellDef="let element"> {{element.varsta}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="dataInmatriculare">
+            <th mat-header-cell *matHeaderCellDef> Data Inmatricularii </th>
+            <td mat-cell *matCellDef="let element"> {{element.dataInmatriculare}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="adoptantiId">
+          <th mat-header-cell *matHeaderCellDef> Adoptat </th>
+          <td mat-cell *matCellDef="let element">{{element.adoptantiId != null ? element.adoptantiId : 'No'}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="delete">
+          <th mat-header-cell *matHeaderCellDef [hidden]="test"> Delete </th>
+          <td mat-cell class="cursorR" *matCellDef="let element" [hidden]="test" (click)="deleteAnimal(element.id)">
+            <mat-icon>
+              delete
+            </mat-icon>
+          </td>
+        </ng-container>
+
+        <ng-container  matColumnDef="edit">
+          <th mat-header-cell *matHeaderCellDef [hidden]="test"> Edit </th>
+          <td mat-cell class="cursorR" *matCellDef="let element" [hidden]="test" (click)="updateAnimal(element)">
+            <mat-icon>
+              edit
+            </mat-icon>
+          </td>
+        </ng-container>
+
+        <tr class="test12" mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr class="test1" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <button id="buton" mat-raised-button (click)="AddNewAnimal()" *ngIf="!test">
+      Add Animal
+    </button>
+
+    <button id="buton" mat-raised-button (click)="LogOut()">
+      Log out
+    </button>
+</div>
