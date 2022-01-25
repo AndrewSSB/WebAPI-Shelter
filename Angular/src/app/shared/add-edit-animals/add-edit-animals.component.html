@@ -1,0 +1,51 @@
+<div class="container">
+    <h1 class="title"> 
+        {{title}}
+    </h1>
+
+    <form [formGroup]="animalForm" class="form">
+        <!-- <mat-form-field appearance="outline">
+            <mat-label>Id</mat-label>
+            <input matInput placeholder="Id" formControlName="Id"/>
+        </mat-form-field> -->
+
+        <mat-form-field appearance="outline">
+            <mat-label >Specie</mat-label>
+            <input matInput placeholder="Specie" formControlName="specie"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Greutate</mat-label>
+            <input matInput placeholder="Greutate" formControlName="greutate" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Inaltime</mat-label>
+            <input matInput placeholder="Inaltime" formControlName="inaltime"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Sex</mat-label>
+            <input matInput placeholder="Sex" formControlName="sex"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Varsta</mat-label>
+            <input matInput placeholder="Varsta" formControlName="varsta"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Data inmatricularii</mat-label>
+            <input type="datetime-local" matInput placeholder="yyyy-mm-d" formControlName="dataInmatriculare"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Adoptant</mat-label>
+            <input matInput placeholder="Adoptant" formControlName="adoptantiId"/>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="!data.animal ? addAnimal() : editAnimal()" >
+        Save
+    </button>
+</div>

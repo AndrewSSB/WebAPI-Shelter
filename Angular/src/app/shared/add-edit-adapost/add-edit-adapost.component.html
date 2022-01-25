@@ -1,0 +1,36 @@
+<div class="container">
+    <h1 class="title"> 
+        {{title}}
+    </h1>
+
+    <form [formGroup]="adapostForm" class="form">
+        <!-- <mat-form-field appearance="outline">
+            <mat-label>Id</mat-label>
+            <input matInput placeholder="Id" formControlName="Id"/>
+        </mat-form-field> -->
+
+        <mat-form-field appearance="outline">
+            <mat-label >Nume</mat-label>
+            <input matInput placeholder="Nume" formControlName="nume"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Email</mat-label>
+            <input matInput placeholder="Email" formControlName="email" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Telefon</mat-label>
+            <input matInput placeholder="Telefon" formControlName="telefon"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Id Locatie</mat-label>
+            <input matInput placeholder="LocationId" formControlName="locationId"/>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="!data.adapost ? addAdapost() : editAdapost()" appHoverBtn>
+        Save
+    </button>
+</div>
